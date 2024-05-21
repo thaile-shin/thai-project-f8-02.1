@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: #fff;
+}
+
+.header.fixed {
+    position: sticky;
+    z-index: 1;
+    background: #fff;
+    top: -44px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.header .navbar {
+    margin-left: auto;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul a {
+    position: relative;
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 8px 20px;
+}
+
+.navbar ul a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.navbar ul li.active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.navbar ul li.active a::after {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: #2f3a3b;
+}
+
+.header .action {
+    margin-left: 177px;
+}
+
+.header .action-link {
+    margin-right: 24px;
+    color: #494949;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header .action-btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.header .action-btn:hover {
+    background: #1ebfc1;
+    color: #fff;
+    border: 1px solid transparent;
+}
