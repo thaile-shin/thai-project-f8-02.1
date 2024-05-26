@@ -29,6 +29,38 @@ a {
     text-decoration: none;
 }
 
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 116.129%; /* 116.129% */
+}
+
+.heading.lv2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 133.333%; /* 133.333% */
+}
+
+.cta-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 41px 21px;
+    border-radius: 14px;
+    background: #1ebfc1;
+}
+
+.cta-btn:hover {
+    opacity: 0.9;
+}
+
 /* Header */
 .header {
     background: #fff;
@@ -116,4 +148,191 @@ a {
     background: #1ebfc1;
     color: #fff;
     border: 1px solid transparent;
+}
+
+.header .action-link:hover {
+    color: #1ebfc1;
+}
+
+/* Hero */
+.hero {
+    padding: 50px 0 80px;
+}
+
+.body-hero {
+    display: flex;
+}
+
+.hero-content {
+    margin: 93px 136px 0 0;
+    width: 45%;
+}
+
+.hero-content .sub-title {
+    color: #767e7e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-content .heading {
+    width: 458px;
+    margin-top: 18px;
+}
+
+.hero-content .desc {
+    width: 374px;
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 177.778%; /* 177.778% */
+}
+
+.hero-content .hero-btn {
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content .watch-video {
+    margin-left: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.hero-content .watch-video span {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.hero-content .watch-video .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.hero-img-block {
+    position: relative;
+    width: 55%;
+}
+
+.hero-img-block img {
+    vertical-align: bottom;
+}
+
+.hero-img-block .image {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero-img-block .card-course {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    padding: 17px 25px 18px;
+    border-radius: 18px;
+    background: #fff;
+}
+
+.hero-img-block .book-icon {
+    position: relative;
+    width: 36px;
+    height: 40px;
+    border-radius: 3px 2px;
+    background: #ff8282;
+}
+
+.hero-img-block .book-line {
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+    right: 4px;
+    width: 28px;
+    height: 4px;
+    border-radius: 999px;
+    background: #fff;
+}
+
+.hero-img-block .text {
+    margin-left: 16px;
+    width: 56px;
+    color: #0d1111;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.hero-img-block .card-schedule {
+    position: absolute;
+    bottom: 46px;
+    left: -65px;
+    padding: 16px 25px 23px;
+    border-radius: 24px;
+    background: #fff;
+}
+
+.hero-img-block .card-schedule .bar-line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-schedule .bar-line:first-child {
+    margin-top: 16px;
+}
+
+.card-schedule .bar-line {
+    margin-top: 12px;
+}
+
+.hero-img-block .card-students {
+    position: absolute;
+    bottom: 41px;
+    right: 45px;
+    padding: 17px 35px;
+    border-radius: 24px;
+    background: #fff;
+}
+
+.hero-img-block .card-students .avatar,
+.hero-img-block .card-students span {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.hero-img-block .card-students .avatar {
+    object-fit: cover;
+}
+
+.hero-img-block .card-students span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ebfc1;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.hero-img-block .card-students span,
+.hero-img-block .card-students .avatar + .avatar {
+    margin-left: -7px;
 }
