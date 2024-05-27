@@ -35,13 +35,13 @@ a {
 }
 
 .heading.lv1 {
-    font-size: 62px;
+    font-size: 6.2rem;
     font-weight: 700;
     line-height: 116.129%; /* 116.129% */
 }
 
 .heading.lv2 {
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 700;
     line-height: 133.333%; /* 133.333% */
 }
@@ -50,7 +50,7 @@ a {
     display: inline-block;
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     padding: 20px 41px 21px;
     border-radius: 14px;
@@ -170,7 +170,7 @@ a {
 
 .hero-content .sub-title {
     color: #767e7e;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -183,7 +183,7 @@ a {
     width: 374px;
     margin-top: 46px;
     color: #9da6a5;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 177.778%; /* 177.778% */
 }
@@ -274,7 +274,7 @@ a {
     margin-left: 16px;
     width: 56px;
     color: #0d1111;
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -328,11 +328,72 @@ a {
     background: #1ebfc1;
     color: #fff;
     text-align: center;
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .hero-img-block .card-students span,
 .hero-img-block .card-students .avatar + .avatar {
     margin-left: -7px;
+}
+
+/* Features */
+
+.features {
+    margin-top: 130px;
+}
+
+.features .body {
+    width: 88%;
+}
+
+.features .body .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .body .heading {
+    width: 577px;
+    margin: 18px 0;
+}
+
+.features .body .desc {
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6875;
+}
+
+.features .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.features .item .info-item {
+    margin: 26px 0 16px;
+    color: #0d1111;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features .item .desc {
+    color: #9da6a5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6875;
+}
+
+.features .item:first-child .desc {
+    width: 168px;
+}
+
+.features .item:nth-child(2) .desc {
+    width: 223px;
+}
+
+.features .item:last-child .desc {
+    width: 224px;
 }
