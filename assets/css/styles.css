@@ -36,14 +36,17 @@ a {
 
 .heading.lv1 {
     font-size: 6.2rem;
-    font-weight: 700;
     line-height: 116.129%; /* 116.129% */
 }
 
 .heading.lv2 {
     font-size: 4.2rem;
-    font-weight: 700;
     line-height: 133.333%; /* 133.333% */
+}
+
+.heading.lv3 {
+    font-size: 22px;
+    line-height: normal;
 }
 
 .cta-btn {
@@ -98,6 +101,7 @@ a {
     color: #2f3a3b;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: normal;
     padding: 8px 20px;
 }
 
@@ -132,6 +136,7 @@ a {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
 
 .header .action-btn {
@@ -142,6 +147,7 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
+    line-height: normal;
 }
 
 .header .action-btn:hover {
@@ -172,6 +178,7 @@ a {
     color: #767e7e;
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .hero-content .heading {
@@ -276,6 +283,7 @@ a {
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
+    line-height: normal;
 }
 
 .hero-img-block .card-schedule {
@@ -351,6 +359,7 @@ a {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
 .features .body .heading {
@@ -363,7 +372,7 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 1.6875;
+    line-height: normal;
 }
 
 .features .info {
@@ -396,4 +405,157 @@ a {
 
 .features .item:last-child .desc {
     width: 224px;
+}
+
+/* Courses */
+
+.courses {
+    margin-top: 130px;
+}
+
+.courses .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: normal;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .desc {
+    width: 525px;
+    margin-top: 19px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 177.778%; /* 177.778% */
+}
+
+.course-link {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.courses-list {
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 47px;
+}
+
+.courses-list .item {
+    position: relative;
+}
+
+.courses-list .item .course-img {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.courses-list .item-img::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.courses-list .item-img:hover::after {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.courses-list .item .info {
+    position: absolute;
+    left: 17px;
+    right: 17px;
+    bottom: -124px;
+    background: #fff;
+    width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    padding: 18px 25px 29px;
+}
+
+.courses-list .item .info:hover {
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.1);
+}
+
+.courses-list .info .price {
+    display: inline-block;
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses-list .price strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses-list .info .desc {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses-list .info .row {
+    margin-top: 18px;
+    display: flex;
+    gap: 0 10px;
+    justify-content: flex-start;
+}
+
+.courses-list .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
+}
+
+.courses-list .row span {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Stats */
+
+.stats .stats-body {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin: 260px auto 130px;
+}
+
+.stats-body .item strong {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stats-body .item .text {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
 }
