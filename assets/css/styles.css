@@ -559,3 +559,128 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
+/* Feedback */
+
+.feedback {
+    margin-top: 130px;
+}
+
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback .feedback-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.feedback-item .content {
+    width: 42%;
+    padding-right: 72px;
+}
+
+.feedback-item .content blockquote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback-item .content .info {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-item .info span {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feedback-item .content .control {
+    display: flex;
+    gap: 0 30px;
+    margin-top: 52px;
+}
+
+.feedback-item .control-btn:hover {
+    cursor: pointer;
+    background: #2ac9bf;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.feedback-item .control-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #2ac9bf;
+    border: 1px solid #2ac9bf;
+}
+
+.feedback-item .avatar-group {
+    position: relative;
+    width: 58%;
+    height: 481px;
+}
+
+.feedback-item .avatar-group .avatar {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .avatar.center {
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+}
+
+.feedback-item .avatar.top-right {
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.feedback-item .avatar.top-left {
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+}
+
+.feedback-item .avatar.mid-left {
+    bottom: 145px;
+    left: 0;
+    width: 78px;
+    height: 78px;
+}
+
+.feedback-item .avatar.bottom-left {
+    bottom: 0;
+    left: 212px;
+    width: 78px;
+    height: 78px;
+}
+
+.feedback-item .avatar.bottom-right {
+    bottom: 29px;
+    right: 32px;
+    width: 78px;
+    height: 78px;
+}
